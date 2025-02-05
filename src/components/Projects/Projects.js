@@ -6,6 +6,8 @@ import MishiPay from "../../Assets/Projects/MishiPay.png";
 import fitnessClub from "../../Assets/Projects/fitnessClub.png";
 import iNoteBook from "../../Assets/Projects/iNoteBook.png";
 import tictactoe from "../../Assets/Projects/tictactoe.png";
+import PKArchitects from "../../Assets/Projects/PKArchitects.png"
+import prescribe from "../../Assets/Projects/prescribe.png"
 
 function Projects() {
   return (
@@ -43,6 +45,17 @@ function Projects() {
 
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
+              imgPath={PKArchitects}
+              isBlog={false}
+              title="Architecure Website"
+              description="This Architecture website aims to provide valuable insights into architectural designs of PK architects that can be applied in real-world scenarios, helping users make informed decisions in their desings and projects."
+              ghLink="https://github.com/takalkarsayali/architecture_seachIn"
+              demoLink="https://takalkarsayali.github.io/architecture_seachIn/"
+            />
+          </Col>
+
+          <Col md={6} lg={4} className="project-card">
+            <ProjectCard
               imgPath={MishiPay}
               isBlog={false}
               title="Mishi Pay"
@@ -65,10 +78,10 @@ function Projects() {
           
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
-              imgPath={tictactoe}
+              imgPath={prescribe}
               isBlog={false}
-              title="Tic Tac Toe"
-              description="A simple yet interactive Tic-Tac-Toe game built using Java, demonstrating core object-oriented programming (OOP) concepts like arrays, loops, and condition handling. The game allows two players to take turns marking Xs and Os on a 3x3 grid, with built-in logic to detect wins, draws, and invalid moves. This project enhances problem-solving skills and strengthens Java programming fundamentals."
+              title="Prescribe"
+              description="A simple yet interactive static website to show and upload the handwritten presciption by doctors which can further get integrated with the Machin Learning models that can convert handwritten text into digital text"
               ghLink="https://github.com/takalkarsayali/prescribe"
               demoLink="https://takalkarsayali.github.io/prescribe/"              
             />
@@ -82,20 +95,20 @@ function Projects() {
 export default Projects;
 
 /*
-fitness app
-iNotebook
-sudoku solver
-tic tac toe
-architecture 
-mishi pay
-prescribe
-drum set
-snake game
-quize
-birthday greeting
-play n learn
-Almank-internship portfolio
-fun with numbers
-calculator
+1 fitness app =
+2 iNotebook =
+3 architecture =
+4 mishi pay =
+5 Almank-internship portfolio 
+6 prescribe =
+7 drum set
+8 tic tac toe =
+  xsudoku solver
+  xsnake game
+  xquize
+  xbirthday greeting
+  xplay n learn
+  xfun with numbers
+  xcalculator
 */
 
