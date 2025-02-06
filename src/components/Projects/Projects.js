@@ -9,6 +9,7 @@ import tictactoe from "../../Assets/Projects/tictactoe.png";
 import PKArchitects from "../../Assets/Projects/PKArchitects.png";
 import prescribe from "../../Assets/Projects/prescribe.png";
 import DrumSet from "../../Assets/Projects/DrumSet.png";
+import Portfolio from "../../Assets/Projects/Portfolio.png";
 
 function Projects() {
   return (
@@ -96,6 +97,17 @@ function Projects() {
               description="A simple yet interactive static website to show and upload the handwritten presciption by doctors which can further get integrated with the Machin Learning models that can convert handwritten text into digital text"
               ghLink="https://github.com/takalkarsayali/DrumSet"
               demoLink="https://takalkarsayali.github.io/DrumSet/"              
+            />
+          </Col>
+          
+          <Col md={6} lg={4} className="project-card">
+            <ProjectCard
+              imgPath={Portfolio}
+              isBlog={false}
+              title="Sample Portfolio"
+              description="A simple yet interactive static website to give an example of how a portfolio can be."
+              ghLink="https://github.com/takalkarsayali/SamplePortfolio"
+              demoLink="https://takalkarsayali.github.io/SamplePortfolio/"              
             />
           </Col>
         </Row>
