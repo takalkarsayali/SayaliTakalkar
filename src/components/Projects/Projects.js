@@ -6,8 +6,9 @@ import MishiPay from "../../Assets/Projects/MishiPay.png";
 import fitnessClub from "../../Assets/Projects/fitnessClub.png";
 import iNoteBook from "../../Assets/Projects/iNoteBook.png";
 import tictactoe from "../../Assets/Projects/tictactoe.png";
-import PKArchitects from "../../Assets/Projects/PKArchitects.png"
-import prescribe from "../../Assets/Projects/prescribe.png"
+import PKArchitects from "../../Assets/Projects/PKArchitects.png";
+import prescribe from "../../Assets/Projects/prescribe.png";
+import DrumSet from "../../Assets/Projects/DrumSet.png";
 
 function Projects() {
   return (
@@ -84,6 +85,17 @@ function Projects() {
               description="A simple yet interactive static website to show and upload the handwritten presciption by doctors which can further get integrated with the Machin Learning models that can convert handwritten text into digital text"
               ghLink="https://github.com/takalkarsayali/prescribe"
               demoLink="https://takalkarsayali.github.io/prescribe/"              
+            />
+          </Col>
+          
+          <Col md={6} lg={4} className="project-card">
+            <ProjectCard
+              imgPath={DrumSet}
+              isBlog={false}
+              title="Drum Set"
+              description="A simple yet interactive static website to show and upload the handwritten presciption by doctors which can further get integrated with the Machin Learning models that can convert handwritten text into digital text"
+              ghLink="https://github.com/takalkarsayali/DrumSet"
+              demoLink="https://takalkarsayali.github.io/DrumSet/"              
             />
           </Col>
         </Row>
